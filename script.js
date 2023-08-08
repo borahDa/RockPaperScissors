@@ -4,3 +4,10 @@ const getComputerChoice = function () {
   return options[randomIndex];
 };
 console.log(getComputerChoice());
+
+const playerSelection = function () {
+  const selection = prompt(`type " rock", "paper" or "scissors"`);
+  selection.toLowerCase();
+  console.log(selection);
+};
+playerSelection();
